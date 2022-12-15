@@ -39,8 +39,8 @@ export async function getStaticProps({ params }) {
 }
 
 const RestaurantPage = ({ restaurantData }) => {
-    const { title, excerpt, featuredImage, restaurantsInformation } = restaurantData;
-    const { location, contact, hours, menu } = restaurantsInformation
+    const { title, excerpt, featuredImage, restaurantInformation } = restaurantData;
+    const { location, contact, hours, menu } = restaurantInformation
     const {streetAddress, city, state, zipCode} = location
     const { phoneNumber, emailAddress} = contact
     const { monday, tuesday, wednesday, thursday, friday, saturday, sunday } = hours
