@@ -1,0 +1,7 @@
+@use "../scss/abstracts/vars";
+
+.footer {
+  background-color: vars.$color_blue;
+  padding: 2rem 0;
+  color: white;
+}

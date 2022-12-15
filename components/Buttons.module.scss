@@ -1,0 +1,15 @@
+@use "../scss/abstracts/mixins";
+@use "../scss/abstracts/vars";
+
+.btn {
+  background-color: vars.$color_blue;
+  color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: vars.$font_secondary;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}

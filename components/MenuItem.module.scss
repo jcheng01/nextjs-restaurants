@@ -1,0 +1,14 @@
+.menuItem {
+  //   background-color: aqua;
+  display: flex;
+  .image {
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+  }
+  content: {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

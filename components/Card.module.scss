@@ -1,0 +1,15 @@
+@use "../scss/abstracts/vars";
+
+.card {
+  background-color: white;
+  border: 1px solid vars.$color_blue;
+  padding: 1rem;
+}
+.card_content {
+  padding: 1rem;
+}
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
