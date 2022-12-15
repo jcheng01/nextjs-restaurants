@@ -1,4 +1,3 @@
-import Buttons from "../components/Buttons";
 import Container from "../components/Container";
 import { Grid } from "../components/Grid";
 import Layout from "../components/Layout";
