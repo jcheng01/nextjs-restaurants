@@ -1,7 +1,6 @@
 import styles from "./Col.module.scss"
 import classNames from 'classnames/bind'
 
-import React from 'react'
 
 let cx = classNames.bind(styles);
 
